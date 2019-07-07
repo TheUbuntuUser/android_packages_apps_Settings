@@ -171,6 +171,7 @@ import com.android.settings.livedisplay.LiveDisplaySettings;
 
 import com.cherish.settings.CherishSettings;
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+import com.cherish.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -330,7 +331,8 @@ public class SettingsGateway {
             MediaManagementAppsDetails.class.getName(),
             CherishSettings.class.getName(),
             WifiTetherClientManager.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -372,5 +374,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.CherishSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
             }
